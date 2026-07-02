@@ -4,13 +4,26 @@ Abogado y builder. Construyo software en la intersección de **legaltech, fintec
 
 🌐 [francodelloni.com](https://francodelloni.com) · 📍 Sunchales, Santa Fe, Argentina
 
-## Qué estoy construyendo
+## En producción
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| [**Sunchales Transparente**](https://github.com/fdelloni/sunchales-transparente) | Plataforma cívica de transparencia para la Municipalidad de Sunchales: datos abiertos, digesto normativo, contrataciones, remuneraciones y asistente ciudadano con RAG. Pipeline automatizada que scrapea, procesa e indexa fuentes oficiales todos los días. | Next.js · TypeScript · Supabase/Postgres (RLS, pgvector) · GitHub Actions · Gemini |
-| [**alquil.app — bot de WhatsApp**](https://github.com/fdelloni/alquilapp-whatsapp-bot) | Asistente de gestión de alquileres por WhatsApp: consultas jurídico-operativas con RAG sobre normativa locativa argentina (CCyC, DNU 70/2023), recibos PDF, facturas, recordatorios. Con banco de QA automatizado de 105 preguntas que corre por cron y commitea sus reportes. | Node.js · Express · Twilio · Supabase · pgvector · Gemini/Groq/Cohere |
-| [**SolidFin**](https://github.com/fdelloni/solidfin) | Plataforma de préstamos con garantía solidaria grupal (en desarrollo). | — |
+| **[Sunchales Transparente](https://ciudadan.com)** · [código](https://github.com/fdelloni/sunchales-transparente) | Plataforma cívica de transparencia para la Municipalidad de Sunchales: datos abiertos, digesto normativo, contrataciones, remuneraciones y asistente ciudadano con RAG. Pipeline automatizada que scrapea, procesa e indexa fuentes oficiales todos los días. | Next.js · TypeScript · Supabase/Postgres (RLS, pgvector) · GitHub Actions · Gemini |
+| **[alquil.app](https://alquil.app)** · [bot (código)](https://github.com/fdelloni/alquilapp-whatsapp-bot) | Gestión de alquileres para Argentina: plataforma web + asistente de WhatsApp con RAG sobre normativa locativa (CCyC, DNU 70/2023), recibos PDF, facturas y recordatorios. Banco de QA automatizado de 105 preguntas que corre por cron. | Node.js · Express · Twilio · Supabase · pgvector · Gemini/Groq/Cohere |
+
+## En desarrollo
+
+| Proyecto | Qué es | Vertical |
+|---|---|---|
+| **[d.lex](https://dlex-orpin.vercel.app)** | Plataforma de arbitraje y resolución de disputas online. | Legaltech |
+| **[SolidFin](https://github.com/fdelloni/solidfin)** | Préstamos con garantía solidaria grupal. | Fintech |
+| **isolventia** | Motor de scoring crediticio para personas físicas y jurídicas en Argentina. | Fintech |
+
+## También explorando
+
+Prototipos e ideas en curso: **Artemisa Rastro** (informes de personas / due diligence), **Tambo-IA** (identificación de ganado con IA para el tambo), **Matcheo** e **Idearium** (comunidad y conexión por afinidad).
+
+> Varios de estos productos son comerciales, así que su código es privado. Los links de arriba llevan al producto en vivo; donde el proyecto es abierto, sumo el link al código.
 
 ## Cómo trabajo
 
